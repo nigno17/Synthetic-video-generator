@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3c86879a058c147863341155f2a078, type: 3}
+  m_Name: SyntheticHumanGenerationConfig
+  m_EditorClassIdentifier: 
+  assetTagPool: {fileID: 11400000, guid: 8d676dd387530f14a9c7292bc018bef9, type: 2}
+  jointSelfOcclusionDistance: 0
+  basePrefab: {fileID: 8552649359334647140, guid: 0bb37feb845df814dbe4843e5ce7628a,
+    type: 3}
+  enableColliderGeneration: 1
+  ageRange:
+    collapsed: 0
+    value:
+      rid: 4907178097732485144
+  genders: 0100000002000000
+  ethnicities: 0400000003000000050000000200000001000000
+  heightRange:
+    collapsed: 0
+    value:
+      rid: 4907178097732485145
+  weightRange:
+    collapsed: 0
+    value:
+      rid: 4907178097732485146
+  heightWeightSolver: 3
+  requiredClothingParameters:
+  - clothingElement: 1
+    layer: 0
+  - clothingElement: 3
+    layer: 0
+  - clothingElement: 2
+    layer: 0
+  preselectedGenerationAssetRefs: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 4907178097732485144
+      type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        range:
+          minimum: 20
+          maximum: 70
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 100
+        <shouldCheckValidRange>k__BackingField: 1
+    - rid: 4907178097732485145
+      type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        range:
+          minimum: 0
+          maximum: 1
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 1
+        <shouldCheckValidRange>k__BackingField: 1
+    - rid: 4907178097732485146
+      type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        range:
+          minimum: 0
+          maximum: 1
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 1
+        <shouldCheckValidRange>k__BackingField: 1

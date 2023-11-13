@@ -10,6 +10,10 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
+# Project specific folders
+/[Aa]ssets/HDRIHaven/
+/[Aa]ssets/[Oo]ld [Ff]iles/
+
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
